@@ -12,7 +12,6 @@ public class A1Novice {
 		
 		// Variable for number of customers
 		int num_of_customers = scan.nextInt();
-		int customers_nums = 0;
 		
 		// Variables for first name and last name
 		String first_name = "";
@@ -30,7 +29,7 @@ public class A1Novice {
 		
 		// Array for customers
 		String customers[];
-		customers = new String[customers_nums];
+		customers = new String[num_of_customers];
 		
 		for(int i = 0; i < num_of_customers; i++)
 		{
