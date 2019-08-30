@@ -52,11 +52,11 @@ public class A1Novice {
 				item_cost = scan.nextDouble();
 				
 				// Adding together cost of items
-				total_cost += item_cost;
+				total_cost += item_cost * num_bought;
 				
 			}
 			
-			customers[i+1] = first_name + ". " + last_name + " " + String.format("%.2f", total_cost);
+			customers[i] = first_name + ". " + last_name + " " + String.format("%.2f", total_cost);
 			
 			
 		}	
