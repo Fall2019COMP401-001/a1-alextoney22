@@ -57,13 +57,13 @@ public class A1Novice {
 				
 			}
 			
-			customers[i] = first_name + ". " + last_name + " " + String.format("%.2f", total_cost);
+			customers[i+1] = first_name + ". " + last_name + " " + String.format("%.2f", total_cost);
 			
 			
 		}	
 		
 		// Print everything
-		for ( int i = 1; i < customers.length; i ++)
+		for ( int i = 0; i < customers.length; i ++)
 		{
 			System.out.println(customers);
 		}
