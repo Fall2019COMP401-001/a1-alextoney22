@@ -28,8 +28,7 @@ public class A1Novice {
 			double total_cost = 0.0;
 		
 		// Array for customers
-		String customers[];
-		customers = new String[num_of_customers];
+		String[] customers = new String[num_of_customers];
 		
 		for(int i = 0; i < num_of_customers; i++)
 		{
