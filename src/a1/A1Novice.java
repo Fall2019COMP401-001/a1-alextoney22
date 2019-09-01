@@ -32,7 +32,7 @@ public class A1Novice {
 		
 		for(int i = 0; i < num_of_customers; i++)
 		{
-			
+			total_cost = 0;
 			
 			// Scanning first name and taking first character then last name and number of items
 			first_name = Character.toString(scan.next().charAt(0));
@@ -51,12 +51,12 @@ public class A1Novice {
 				item_cost = scan.nextDouble();
 				
 				// Adding together cost of items
-				total_cost = (item_cost * num_bought);
+				total_cost += (item_cost * num_bought);
+				
 				
 			}
 			
 			customers[i] = first_name + ". " + last_name + ": " + String.format("%.2f", total_cost);
-			
 		}	
 		
 		// Print everything
