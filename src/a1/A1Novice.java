@@ -51,7 +51,7 @@ public class A1Novice {
 				item_cost = scan.nextDouble();
 				
 				// Adding together cost of items
-				total_cost += item_cost * num_bought;
+				total_cost = (item_cost * num_bought);
 				
 			}
 			
