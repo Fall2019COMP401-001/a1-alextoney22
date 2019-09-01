@@ -14,8 +14,7 @@ public class A1Adept {
 		int items_in_store = scan.nextInt();
 		
 		// Number of customers and total cost
-		int customers = 0;
-		customers = scan.nextInt();
+		int customers = scan.nextInt();
 		double total_cost = 0;
 		
 		// Arrays for items and prices
@@ -34,10 +33,6 @@ public class A1Adept {
 			prices[i] = scan.nextDouble();
 			
 		}
-		
-		
-		// Takes the number of customers
-		customers = scan.nextInt();
 		
 		// Finding price and computing total amount
 		for( int n = 0; n < customers; n++)
