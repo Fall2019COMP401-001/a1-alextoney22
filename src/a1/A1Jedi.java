@@ -92,7 +92,7 @@ public class A1Jedi {
 			}
 			else
 			{
-				System.out.println(number_bought_by_customer[i] +" customers bought" + number_of_items[i] + " " + names_of_items[i] );
+				System.out.println(number_bought_by_customer[i] +" customers bought " + number_of_items[i] + " " + names_of_items[i] );
 			}
 		}
 	}
