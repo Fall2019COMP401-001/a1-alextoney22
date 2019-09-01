@@ -43,9 +43,8 @@ public class A1Jedi {
 		// Need item name array
 		String[] item_name = new String[item_count];
 		
-		// Need amount and number bought variable
+		// Need number bought variable
 		int number_bought = 0;
-		int[] amount = new int[number_bought];
 		
 		// Taking each name of item and adding them together with boolean to test if already bought or not
 		for (int i = 0; i < customer_count; i++)
@@ -53,11 +52,12 @@ public class A1Jedi {
 			first_name[i] = scan.next();
 			last_name[i] = scan.next();
 			number_bought = scan.nextInt();
-			for ( int n = 0; n < number_bought; n ++)
+			int[] amount = new int[number_bought];
+			for (int n = 0; n < number_bought; n ++)
 			{
 				amount[n] = scan.nextInt();
 				item_name[n] = scan.next();
-				for ( int j = 0; j < item_count; j ++)
+				for (int j = 0; j < item_count; j ++)
 				{
 					if(item_name[n].equals(names_of_items[j]))
 					{
@@ -84,7 +84,7 @@ public class A1Jedi {
 		}
 		
 		// Printing out the specific amount of items customers bought
-		for ( int i = 0; i < item_count; i ++)
+		for (int i = 0; i < item_count; i ++)
 		{
 			if (number_of_items[i] == 0)
 			{
