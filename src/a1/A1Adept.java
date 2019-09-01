@@ -118,5 +118,4 @@ public class A1Adept {
 		}
 		return 0;
 	}
-	}
 }
