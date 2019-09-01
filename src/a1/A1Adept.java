@@ -14,7 +14,6 @@ public class A1Adept {
 		int items_in_store = scan.nextInt();
 		
 		// Number of customers and total cost
-		
 		double total_cost = 0;
 		
 		// Arrays for items and prices
