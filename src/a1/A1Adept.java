@@ -56,12 +56,12 @@ public class A1Adept {
 		// Printing out biggest, smallest and average
 		System.out.println("Biggest: " + customer_names[max(total)] + " (" + String.format("%.2f", total[max(total)]) + ")");
 		System.out.println("Smallest: " + customer_names[min(total)] + " (" + String.format("%.2f", total[min(total)]) + ")");
-		System.out.println("Average: " + String.format("%.2f",average(total) ));
+		System.out.println("Average: " + average(total) );
 		
 	}
 	
 	// Methods for max, min and average
-	static String average(double[] total)
+	static String average(double total[])
 	{
 		double average = 0.0;
 		
