@@ -14,16 +14,14 @@ public class A1Adept {
 		int items_in_store = scan.nextInt();
 		
 		// Number of customers and total cost
-		int customers = scan.nextInt();
+		
 		double total_cost = 0;
 		
 		// Arrays for items and prices
 		double[] prices = new double[items_in_store];
 		String[] names_of_items = new String[items_in_store];
 		
-		// Array for customer names and total cost of customers
-		String[] customer_names = new String[customers];
-		double[] total = new double[customers];
+		
 		
 		
 		// Putting the items into the arrays
@@ -33,6 +31,12 @@ public class A1Adept {
 			prices[i] = scan.nextDouble();
 			
 		}
+		// Scanning number of customers
+		int customers = scan.nextInt();
+		
+		// Array for customer names and total cost of customers
+		String[] customer_names = new String[customers];
+		double[] total = new double[customers];
 		
 		// Finding price and computing total amount
 		for( int n = 0; n < customers; n++)
