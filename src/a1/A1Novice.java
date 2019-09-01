@@ -25,7 +25,7 @@ public class A1Novice {
 		double item_cost = 0.0;
 		
 		// Total Cost of items
-			double total_cost = 0.0;
+		double total_cost = 0.0;
 		
 		// Array for customers
 		String[] customers = new String[num_of_customers];
@@ -55,7 +55,7 @@ public class A1Novice {
 				
 			}
 			
-			customers[i] = first_name + ". " + last_name + " " + String.format("%.2f", total_cost);
+			customers[i] = first_name + ". " + last_name + ": " + String.format("%.2f", total_cost);
 			
 		}	
 		
