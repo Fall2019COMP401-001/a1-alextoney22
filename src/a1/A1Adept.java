@@ -13,7 +13,6 @@ public class A1Adept {
 		// Takes number of items in the store
 		int items_in_store = scan.nextInt();
 		
-		
 		// Number of customers and total cost
 		int customers = 0;
 		double total_cost = 0;
