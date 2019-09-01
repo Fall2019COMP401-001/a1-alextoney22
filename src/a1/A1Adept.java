@@ -61,17 +61,16 @@ public class A1Adept {
 	}
 	
 	// Methods for max, min and average
-	static String average(double total[])
+	static String average(double[] total)
 	{
 		double average = 0.0;
-		int sum = 0;
+		
 		for (int i = 0; i < total.length; i++)
 		{
-			sum += total[i];
+			average += total[i];
 		}
 		
-		average = sum / total.length;
-		return String.format("%.2f", average);
+		return String.format("%.2f", ((double) average / ((double) total.length)));
 	}
 	static int max(double total[])
 	{
