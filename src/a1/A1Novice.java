@@ -62,7 +62,7 @@ public class A1Novice {
 		// Print everything
 		for ( int i = 0; i < customers.length; i ++)
 		{
-			System.out.println(customers);
+			System.out.println(customers[i]);
 		}
 		
 		scan.close();
