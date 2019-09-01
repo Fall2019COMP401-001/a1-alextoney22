@@ -70,7 +70,7 @@ public class A1Adept {
 			average += total[i];
 		}
 		
-		return String.format("%.2f", ((double) average / ((double) total.length)));
+		return String.format("%.2f", ((double) average) / ((double) total.length));
 	}
 	static int max(double total[])
 	{
