@@ -57,7 +57,6 @@ public class A1Novice {
 			
 			customers[i] = first_name + ". " + last_name + " " + String.format("%.2f", total_cost);
 			
-			
 		}	
 		
 		// Print everything
